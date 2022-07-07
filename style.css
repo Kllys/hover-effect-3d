@@ -13,26 +13,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #161623;
+    background: whitesmoke;
 }
 
 .container {
     position: relative;
     width: 507px;
     height: 900px;
-    background-color: rgb(255, 255, 255, .5);
+    background-color: rgb(0, 0, 0, .4);
     transform:  rotate(-30deg) skew(25deg) scale(.8);
     transition: .5s;
+    border-radius: 15px;
 }
 
 .container:hover {
-    box-shadow: 0 10px 30px rgb(255, 255, 255, .5);
+    box-shadow: -15px 15px 30px 10px rgb(0, 0, 0, .4);
 }
 
 .container img {
     position: absolute;
     width: 100%;
     transition: .5s;
+    border-radius: 15px;
+    box-shadow: -15px 10px 20px rgba(0, 0, 0, .2);
 }
 
 .container:hover img:nth-child(4) {
