@@ -18,8 +18,9 @@ body {
 
 .container {
     position: relative;
-    width: 507px;
-    height: 900px;
+    width: 350px;
+    height: 623px;
+    margin-top: 100px;
     background-color: rgb(0, 0, 0, .4);
     transform:  rotate(-30deg) skew(25deg) scale(.8);
     transition: .5s;
